@@ -10,12 +10,17 @@ The current version still encounters compatibility issues even when using the of
 
 ## Docker Logic
 
+![image](https://github.com/user-attachments/assets/62e9e5c5-dacc-40af-b491-33861ed6bec9)
+
+
+
+
 ### **Image Setup**
 Create the following **bash script** and execute it **on the local environment (not inside Docker)**:
 
 ```bash
 # Add NVIDIA repository
-distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+distribution=(./etc/os−release;echo(. /etc/os-release;echo ID$VERSION_ID)
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
 curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/nvidia-container-toolkit.list | \
   sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
