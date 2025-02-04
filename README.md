@@ -1,7 +1,9 @@
 # bevdet_enviroment
-The current version still encounters compatibility issues even when using the official Docker configuration for the local environment. Below is a tutorial for setting up the environment using Docker on Ubuntu 20.04.
-如果你使用中文的操作说明,请下载jupyter notebook文件或者访问链接
+The current version still encounters compatibility issues even when using the official Docker configuration for the local environment. Below is a tutorial for setting up the environment using Docker on Ubuntu 20.04.  
 
+如果你使用中文的操作说明,请下载jupyter notebook(ipynb)文件或者访问链接:  
+
+https://github.com/schlange-git/-bevdet4d_env-
 # Bilibili Teaching Videos
 
 - [Video 1](https://www.bilibili.com/video/BV1s54y1n7Ev/?spm_id_from=333.337.search-card.all.click&vd_source=4b8e5a437540b388abe0e0e23e80b583)
